@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 export default function Signup() {
+    
   return (
     <>
       <div className="step-info"></div>
       <div className="personal-info-form">
         <h1>Personal Info</h1>
         <h4>Please provide your name, email address, and phone number.</h4>
-        <form action="">
+        <form>
           <label for="name"></label>
           <input type="text" name="name" id="name" />
           <label for="email"></label>
