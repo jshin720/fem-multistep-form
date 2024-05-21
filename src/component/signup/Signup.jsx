@@ -2,6 +2,13 @@ import React, { useState } from "react";
 
 
 export default function Signup() {
+    const [profileInfo, setProfileInfo] = useState({
+      name: "",
+      email: "",
+      phoneNumber: ""
+    })
+
+
     
   return (
     <>
