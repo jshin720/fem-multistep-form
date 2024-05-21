@@ -8,7 +8,7 @@ export default function Signup() {
       phoneNumber: ""
     })
 
-    const profileSubmit = (e) => {
+    const handleSubmit = (e) => {
       e.preventDefault();
       console.log(e)
     }
@@ -20,7 +20,7 @@ export default function Signup() {
       <div className="personal-info-form">
         <h1>Personal Info</h1>
         <h4>Please provide your name, email address, and phone number.</h4>
-        <form onSubmit={profileSubmit}>
+        <form onSubmit={handleSubmit}>
           <label for="name"></label>
           <input type="text" name="name" id="name" />
           <label for="email"></label>
