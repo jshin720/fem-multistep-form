@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 function Form() {
     const [page, setPage] = useState(0);
+    const formTitles = ["signup", "personalinfo", "other"];
+
     
     
   return (
