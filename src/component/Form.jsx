@@ -15,9 +15,11 @@ function Form() {
 
           </div>
           <div className="body"></div>
-          <div className="footer">
-            <button></button>
-            <button></button>
+          <div className="footer"> 
+            <button onClick={() => {setPage(currPage) => currPage + 1 }>next</button>
+            <button>
+                prev
+            </button>
           </div>
         </div>
       </div>
