@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SignPage from "./signpage/signage.jsx";
+import SignPage from "./Signage.jsx";
 import Login from "./login/Login.jsx";
 import Plan from "./plan/plan.jsx"
 
@@ -11,13 +11,13 @@ function Form() {
   const pageDisplay = () => {
     if (page === 0) {
       return <SignPage />;
-      } else if (page === 1) {
-        return <PersonalInfo />;
-      } else if (page === 2) {
-        return <Other />;
-      } 
-    }
+    } else if (page === 1) {
+        return <Login />;
+    } else if (page === 2) {
+        return <Plan />;
+    } 
   }
+  
 
   return (
     <div className="form">
