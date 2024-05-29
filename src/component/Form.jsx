@@ -14,14 +14,21 @@ function Form() {
           <div className="body"></div>
           <div className="footer">
             <button
-              disabled={page == formTitles.length - 1 }
+              disabled={page == formTitles.length - 1}
               onClick={() => {
                 setPage((currPage) => currPage + 1);
               }}
             >
               next
             </button>
-            <button>prev</button>
+            <button
+              disabled={page == 0}
+              onClick={() => {
+                setPage((currPage) => currPage - 1);
+              }}
+            >
+              prev
+            </button>
           </div>
         </div>
       </div>
