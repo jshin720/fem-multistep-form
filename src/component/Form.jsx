@@ -1,8 +1,23 @@
 import React, { useState } from "react";
+import SignPage from "./signpage/signage.jsx";
+import Login from "./login/Login.jsx";
+import Plan from "./plan/plan.jsx"
+
 
 function Form() {
   const [page, setPage] = useState(0);
-  const formTitles = ["signup", "personalinfo", "other"];
+  const formTitles = ["sign up", "personal info", "other"];
+
+  const pageDisplay = () => {
+    if (page === 0) {
+      return <SignPage />;
+      } else if (page === 1) {
+        return <PersonalInfo />;
+      } else if (page === 2) {
+        return <Other />;
+      } 
+    }
+  }
 
   return (
     <div className="form">
@@ -11,7 +26,7 @@ function Form() {
           <div className="header">
             <h1>{formTitles[page]}</h1>
           </div>
-          <div className="body"></div>
+          <div className="body">{pageDisplay}</div>
           <div className="footer">
             <button
               disabled={page == formTitles.length - 1}
