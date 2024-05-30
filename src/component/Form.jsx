@@ -7,7 +7,7 @@ import Plan from "./plan/plan.jsx"
 
 function Form() {
   const [page, setPage] = useState(0);
-  const formTitles = ["sign up", "personal info", "other"];
+  const formTitles = ["personal info", "plan", "addon", "confirmation"];
 
   const pageDisplay = () => {
     if (page === 0) {
@@ -29,16 +29,8 @@ function Form() {
           <div className="header">
             <h1>{formTitles[page]}</h1>
           </div>
-          <div className="body">{pageDisplay}</div>
+          <div className="body">{ pageDisplay() }</div>
           <div className="footer">
-            <button
-              disabled={page == formTitles.length - 1}
-              onClick={() => {
-                setPage((currPage) => currPage + 1);
-              }}
-            >
-              next
-            </button>
             <button
               disabled={page == 0}
               onClick={() => {
@@ -46,6 +38,14 @@ function Form() {
               }}
             >
               prev
+            </button>
+            <button
+              disabled={page == formTitles.length - 1}
+              onClick={() => {
+                setPage((currPage) => currPage + 1);
+              }}
+            >
+              next
             </button>
           </div>
         </div>
