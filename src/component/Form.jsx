@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import SignPage from "./Signage.jsx";
-import Login from "./login/Login.jsx";
-import Plan from "./plan/plan.jsx"
 
+import AddOn from "./addon/addon";
+import PersonalInfo from "./personalinfo/personalinfo.jsx";
+import Confirmation from "./confirmation/confirmation.jsx";
+import Plan from "./plan/plan.jsx"
 
 function Form() {
   const [page, setPage] = useState(0);
@@ -10,12 +11,14 @@ function Form() {
 
   const pageDisplay = () => {
     if (page === 0) {
-      return <SignPage />;
+      return <PersonalInfo />;
     } else if (page === 1) {
-        return <Login />;
-    } else if (page === 2) {
         return <Plan />;
-    } 
+    } else if (page === 2) {
+        return <AddOn />;
+    } else {
+      return <Confirmation/>
+    }
   }
   
 
