@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function personalInfo() {
+    const [currentData, setCurrentData] = useState({})
+    const handleSubmit = () => {}; 
   return (
     <div>
       <h1>personal info</h1>
