@@ -5,10 +5,12 @@ import PersonalInfo from "./personalInfo/personalInfo.jsx";
 import Confirmation from "./confirmation/confirmation.jsx";
 import Plan from "./plan/plan.jsx"
 
-function Form() {
+function Form(props) {
   const [page, setPage] = useState(0);
   const formTitles = ["personal info", "plan", "addon", "confirmation"];
 
+  console.log(props)
+  
   const pageDisplay = () => {
     if (page === 0) {
       return <PersonalInfo />;
