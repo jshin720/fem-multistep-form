@@ -10,8 +10,8 @@ function Form(props) {
   const formTitles = ["personal info", "plan", "addon", "confirmation"];
 
   console.log(props)
-  const [formData, setFormData] = props;
-  
+  const {formData, setFormData} = props;
+
   const pageDisplay = () => {
     if (page === 0) {
       return <PersonalInfo />;
