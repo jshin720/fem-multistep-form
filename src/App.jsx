@@ -7,6 +7,17 @@ import "./App.css";
 
 function App() {
   const [page, setPage] = useState(0);
+  const [formData, setFormData] = useState({email: "",
+    password: "",
+    password2: "",
+    name: "",
+    surname: "",
+    phone: "",
+    address: "",
+    city: "",
+    country: "",
+    postalCode: ""
+  })
 
   return (
     <>
