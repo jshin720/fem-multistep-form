@@ -10,6 +10,9 @@ function App() {
 
   return (
     <>
+    <div className="progress-bar">
+      <div className="progress" style={{ width: `${page}%` }}></div>
+    </div>
       <Form />
     </>
   );

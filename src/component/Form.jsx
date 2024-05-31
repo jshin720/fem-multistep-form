@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import AddOn from "./addon/addon";
-import PersonalInfo from "./personalinfo/personalinfo.jsx";
+import PersonalInfo from "./personalInfo/personalInfo.jsx";
 import Confirmation from "./confirmation/confirmation.jsx";
 import Plan from "./plan/plan.jsx"
 
