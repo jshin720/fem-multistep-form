@@ -7,6 +7,11 @@ import Plan from "./plan/plan.jsx"
 
 function Form(props) {
   const [page, setPage] = useState(0);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: ""
+    });
   const formTitles = ["personal info", "plan", "addon", "confirmation"];
   const [personalInfo, setPersonalInfo] = useState({
     firstName: "",
