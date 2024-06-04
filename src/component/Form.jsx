@@ -9,16 +9,6 @@ function Form(props) {
   const [page, setPage] = useState(0);
  
   const formTitles = ["personal info", "plan", "addon", "confirmation"];
-  const [personalInfo, setPersonalInfo] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    address: "",
-    city: "",
-    state: "",
-    zip: ""
-    });
 
   console.log(props)
   const {formData, setFormData} = props;
