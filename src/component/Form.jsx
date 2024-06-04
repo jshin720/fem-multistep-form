@@ -12,8 +12,7 @@ function Form(props) {
 
   console.log(props)
   const {formData, setFormData} = props;
-  const [formData1, setFormData1] = useState(formData);
-  const [formData2, setFormData2] = useState(formData);
+  
 
 
   const pageDisplay = () => {
