@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
-function personalInfo() {
+function personalInfo(props) {
     const [currentData, setCurrentData] = useState({})
-    const handleSubmit = () => {}; 
+    const { formData, setFormData } = props;
+    const handleSubmit = (e) => {
+      
+    }; 
   return (
     <div>
       <h1>personal info</h1>
