@@ -17,11 +17,11 @@ function Form(props) {
 
   const pageDisplay = () => {
     if (page === 0) {
-      return <PersonalInfo />;
+      return <PersonalInfo formData={formData} setFormData={setFormData} />;
     } else if (page === 1) {
-        return <Plan />;
+        return <Plan formData={formData} setFormData={setFormData} />;
     } else if (page === 2) {
-        return <AddOn />;
+        return <AddOn formData={formData} setFormData={setFormData} />;
     } else {
       return <Confirmation/>
     }
