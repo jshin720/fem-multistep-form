@@ -12,25 +12,39 @@ function App() {
     email: "",
     phone: "",
     name: "",
-    plan: {
-
-    },
+    plan: {},
     monthly: true,
     yearly: false,
     addOns: {
       online: "Access",
       larger: "extra",
-      custom: "custom"
-    }    
-  })
+      custom: "custom",
+    },
+  });
 
   return (
     <>
-    <div className="progress-bar">
-      <div className="progress" style={{ width: page === 0 ? "25%" : page === 1 ? "50%" : page === 2 ? "75%" : "100%" }}></div>
-
-    </div>
-      <Form formData={formData} setFormData={setFormData}/>
+      <div className="progress-bar">
+        <div
+          className="progress"
+          style={{
+            width:
+              page === 0
+                ? "25%"
+                : page === 1
+                ? "50%"
+                : page === 2
+                ? "75%"
+                : "100%",
+          }}
+        ></div>
+      </div>
+      <Form
+        formData={formData}
+        setFormData={setFormData}
+        page={page}
+        setPage={setPage}
+      />
     </>
   );
 }
