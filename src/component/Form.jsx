@@ -6,12 +6,11 @@ import Confirmation from "./confirmation/confirmation.jsx";
 import Plan from "./plan/plan.jsx"
 
 function Form(props) {
-  const [page, setPage] = useState(0);
  
   const formTitles = ["info", "plan", "addon", "summary"];
 
   console.log(props)
-  const {formData, setFormData} = props;
+  const {formData, setFormData, page, setPage} = props;
   
 
 
