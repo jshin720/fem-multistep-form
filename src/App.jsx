@@ -7,17 +7,21 @@ import "./App.css";
 
 function App() {
   const [page, setPage] = useState(0);
-  const [formData, setFormData] = useState({email: "",
-    password: "",
-    password2: "",
+  const [formData, setFormData] = useState({
     name: "",
-    surname: "",
+    email: "",
     phone: "",
-    address: "",
-    city: "",
-    country: "",
-    postalCode: ""
-    
+    name: "",
+    plan: {
+
+    },
+    monthly: true,
+    yearly: false,
+    addOns: {
+      online: "Access",
+      larger: "extra",
+      custom: "custom"
+    }    
   })
 
   return (
