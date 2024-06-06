@@ -11,10 +11,11 @@ function personalInfo(props) {
       <h1>personal info</h1>
       <form>
         <label>Username:</label>
-        <input type="text" name="username" />
-        <label>Password:</label>
-        <input type="password" name="password" />
-        <input type="submit" value="Submit" />
+        <input type="text" name="name" value={}/>
+        <label>Email:</label>
+        <input type="email" name="email" value={}/>
+        <label>Phone Number</label>
+        <input type="phone" name="phone" value={}/>
       </form>
     </div>
   );
