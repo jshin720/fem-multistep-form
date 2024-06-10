@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function confirmation() {
+function confirmation(props) {
+  const { formData, setFormData, page, setPage } = props;
   return (
     <div>
       <h1>confirmation</h1>
