@@ -1,6 +1,8 @@
 import React from 'react';
 
-function plan() {
+function plan(props) {
+
+
   return (
     <div>
       <h1>plan</h1>

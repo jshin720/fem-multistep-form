@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function personalInfo(props) {
     
-    const { formData, setFormData } = props;
+    const { formData, setFormData, page, setPage } = props;
     
     const handleChange = (e) => {
       console.log(e)

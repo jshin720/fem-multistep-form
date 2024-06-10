@@ -6,11 +6,25 @@ import Confirmation from "./confirmation/confirmation.jsx";
 import Plan from "./plan/plan.jsx"
 
 function Form(props) {
+    const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      phone: "",
+      name: "",
+      plan: {},
+      monthly: true,
+      yearly: false,
+      addOns: {
+        online: "Access",
+        larger: "extra",
+        custom: "custom",
+      },
+    });
  
   const formTitles = ["info", "plan", "addon", "summary"];
 
   console.log(props)
-  const {formData, setFormData, page, setPage} = props;
+  const { page, setPage} = props;
   
 
 
