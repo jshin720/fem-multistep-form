@@ -12,6 +12,7 @@ function Form(props) {
     phone: "",
     name: "",
     plan: {},
+    termToggle: false,
     monthly: true,
     yearly: false,
     addOns: {
