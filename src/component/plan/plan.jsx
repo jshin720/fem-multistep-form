@@ -6,15 +6,13 @@ const { formData, setFormData, page, setPage } = props;
 
   return (
     <div>
-      <h1>plan</h1>
-      <form>
-        <label>Username:</label>
-        <input type="text" name="name" value={handleChange()} />
-        <label>Email:</label>
-        <input type="email" name="email" value={handleChange()} />
-        <label>Phone Number</label>
-        <input type="phone" name="phone" value={handleChange()} />
-      </form>
+      <h1>select your plan</h1>
+      <h4>you have the option of monthly or yearly billing</h4>
+      <button>arcade</button>
+      <button>advanced</button>
+      <button>pro</button>
+      
+      
     </div>
   );
 }
