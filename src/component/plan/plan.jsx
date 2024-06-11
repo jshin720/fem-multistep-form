@@ -4,6 +4,10 @@ function plan(props) {
 
 const { formData, setFormData, page, setPage } = props;
 
+const toggleSwitch = () => {
+  
+}
+
   return (
     <div>
       <h1>select your plan</h1>
@@ -11,7 +15,7 @@ const { formData, setFormData, page, setPage } = props;
       <button>arcade</button>
       <button>advanced</button>
       <button>pro</button>
-      
+
       
     </div>
   );
