@@ -18,7 +18,17 @@ function addOn() {
       <div>
         <input type="checkbox" name="" id="" />
         <span>
-          <h5>online services</h5>
+          <h5>larger storage</h5>
+          <p>access to multiplayer games</p>
+        </span>
+      </div>
+      <div>
+        <p>$1/mo</p>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="" />
+        <span>
+          <h5>customizable profile</h5>
           <p>access to multiplayer games</p>
         </span>
       </div>
