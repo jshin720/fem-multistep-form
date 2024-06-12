@@ -29,7 +29,7 @@ function addOn() {
         <input type="checkbox" name="" id="" />
         <span>
           <h5>customizable profile</h5>
-          <p>access to multiplayer games</p>
+          <p>custom themes on your profile</p>
         </span>
       </div>
       <div>
