@@ -3,15 +3,19 @@ import React from 'react';
 function addOn() {
   return (
     <div>
-      <h1>addon</h1>
-      <form>
-        <label>Username:</label>
-        <input type="text" name="name" value={handleChange()} />
-        <label>Email:</label>
-        <input type="email" name="email" value={handleChange()} />
-        <label>Phone Number</label>
-        <input type="phone" name="phone" value={handleChange()} />
-      </form>
+      <h1>Pick addon</h1>
+      <h5>add-ons help enhance your gaming experience</h5>
+     <div>
+      <input type="checkbox" name="" id="" />
+      <span>
+        <h5>
+          online services
+        </h5>
+        <p>
+          access to multiplayer games
+        </p>
+      </span>
+     </div>
     </div>
   );
 }
