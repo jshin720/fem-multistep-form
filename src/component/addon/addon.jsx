@@ -19,7 +19,7 @@ function addOn() {
         <input type="checkbox" name="" id="" />
         <span>
           <h5>larger storage</h5>
-          <p>access to multiplayer games</p>
+          <p>extra 1tb of cloud storage</p>
         </span>
       </div>
       <div>
