@@ -36,6 +36,7 @@ function addOn() {
         <p>$1/mo</p>
       </div>
       <button>go back</button>
+      <button>next step</button>
     </div>
   );
 }
