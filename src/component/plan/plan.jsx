@@ -25,21 +25,30 @@ const toggleSwitch = () => {
   return (
     <div>
       <div>
-      <h1>select your plan</h1>
-      <h4>you have the option of monthly or yearly billing</h4>
-
+        <h1>select your plan</h1>
+        <h4>you have the option of monthly or yearly billing</h4>
       </div>
       <div>
-      <button>arcade</button>
-      <button>advanced</button>
-      <button>pro</button>
-
+        <button>arcade</button>
+        <button>advanced</button>
+        <button>pro</button>
       </div>
       <div>
-        <button>go back</button>
-        <button>next steps</button>
+        <button
+          onClick={() => {
+            setPage((currPage) => currPage - 1);
+          }}
+        >
+          go back
+        </button>
+        <button
+          onClick={() => {
+            setPage((currPage) => currPage + 1);
+          }}
+        >
+          next steps
+        </button>
       </div>
-      
     </div>
   );
 }
