@@ -35,8 +35,20 @@ function addOn() {
       <div>
         <p>$1/mo</p>
       </div>
-      <button>go back</button>
-      <button>next step</button>
+      <button
+        onClick={() => {
+          setPage((currPage) => currPage - 1);
+        }}
+      >
+        go back
+      </button>
+      <button
+        onClick={() => {
+          setPage((currPage) => currPage + 1);
+        }}
+      >
+        next step
+      </button>
     </div>
   );
 }

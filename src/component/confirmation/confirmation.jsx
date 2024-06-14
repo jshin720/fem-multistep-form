@@ -13,6 +13,20 @@ function confirmation(props) {
         <label>Phone Number</label>
         <input type="phone" name="phone" value={handleChange()} />
       </form>
+      <button
+        onClick={() => {
+          setPage((currPage) => currPage - 1);
+        }}
+      >
+        go back
+      </button>
+      <button
+        onClick={() => {
+          setPage((currPage) => currPage + 1);
+        }}
+      >
+        next step
+      </button>
     </div>
   );
 }
