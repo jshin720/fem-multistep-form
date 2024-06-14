@@ -12,6 +12,7 @@ function confirmation(props) {
         <input type="email" name="email" value={handleChange()} />
         <label>Phone Number</label>
         <input type="phone" name="phone" value={handleChange()} />
+        <label>Password:</label>
       </form>
       <button
         onClick={() => {
