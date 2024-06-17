@@ -1,26 +1,24 @@
-import React from 'react';
+import React from "react";
 
 function plan(props) {
+  const { formData, setFormData, page, setPage } = props;
 
-const { formData, setFormData, page, setPage } = props;
-
-const toggleSwitch = () => {
-
-  return (
-    <div class="toggle-switch">
-      <input
-        type="checkbox"
-        class="toggle-switch-checkbox"
-        name="toggleSwitch"
-        id="toggleSwitch"
-      />
-      <label class="toggle-switch-label" for="toggleSwitch">
-        <span class="toggle-switch-inner"></span>
-        <span class="toggle-switch-switch"></span>
-      </label>
-    </div>
-  );
-}
+  const toggleSwitch = () => {
+    return (
+      <div class="toggle-switch">
+        <input
+          type="checkbox"
+          class="toggle-switch-checkbox"
+          name="toggleSwitch"
+          id="toggleSwitch"
+        />
+        <label class="toggle-switch-label" for="toggleSwitch">
+          <span class="toggle-switch-inner"></span>
+          <span class="toggle-switch-switch"></span>
+        </label>
+      </div>
+    );
+  };
 
   return (
     <div>

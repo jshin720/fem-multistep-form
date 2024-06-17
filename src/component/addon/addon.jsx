@@ -1,6 +1,8 @@
 import React from 'react';
 
-function addOn() {
+function addOn(props) {
+  const { formData, setFormData, page, setPage } = props;
+
   return (
     <div>
       <h1>Pick addon</h1>
