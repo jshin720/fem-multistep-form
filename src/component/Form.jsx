@@ -11,7 +11,7 @@ function Form(props) {
     email: "",
     phone: "",
     name: "",
-    plan: {},
+    // plan: {},
     termToggle: false,
     monthly: true,
     yearly: false,
