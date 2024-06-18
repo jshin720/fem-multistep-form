@@ -27,8 +27,6 @@ function App() {
         ></div>
       </div>
       <Form
-        formData={formData}
-        setFormData={setFormData}
         page={page}
         setPage={setPage}
       />
