@@ -4,6 +4,10 @@ function confirmation(props) {
   
   const { formData, setFormData, page, setPage } = props;
 
+  const handleChange = () => {
+    
+  }
+
 
   return (
     <div>
@@ -17,7 +21,7 @@ function confirmation(props) {
         <input type="phone" name="phone" value={handleChange()} />
         <label>Password:</label>
       </form>
-      <button
+      {/* <button
         onClick={() => {
           setPage((currPage) => currPage - 1);
         }}
@@ -30,7 +34,7 @@ function confirmation(props) {
         }}
       >
         next step
-      </button>
+      </button> */}
     </div>
   );
 }
