@@ -31,7 +31,7 @@ function plan(props) {
         <button>advanced</button>
         <button>pro</button>
       </div>
-      <div>
+      {/* <div>
         <button
           onClick={() => {
             setPage((currPage) => currPage - 1);
@@ -46,7 +46,7 @@ function plan(props) {
         >
           next steps
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
