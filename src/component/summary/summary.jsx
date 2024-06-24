@@ -2,10 +2,7 @@ import React, {useState} from 'react';
 
 function summary(props) {
   
-
-  const handleConfirmed = () => {
-
-  }
+  const { confirmed, setConfirmed, formData} = props
 
   return (
     <div>
