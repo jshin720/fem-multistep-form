@@ -4,6 +4,7 @@ import AddOn from "./addon/addon";
 import PersonalInfo from "./personalInfo/personalInfo.jsx";
 import Confirmation from "./confirmation/confirmation.jsx";
 import Plan from "./plan/plan.jsx";
+import Summary from "./summary/summary.jsx";
 
 function Form(props) {
   const [formData, setFormData] = useState({
@@ -21,7 +22,7 @@ function Form(props) {
       custom: "custom",
     },
   });
-  const [confirmed, setConfirmed] = useState(false); 
+  const [confirmed, setConfirmed] = useState(false);
 
   const formTitles = ["info", "plan", "addon", "summary"];
 
@@ -57,7 +58,13 @@ function Form(props) {
         />
       );
     } else {
-      return <Confirmation />;
+      return (
+        <Confirmation
+          formData={formData}
+          setConfirmed={setConfirmed}
+          confirmed={confirmed}
+        />
+      );
     }
   };
 
