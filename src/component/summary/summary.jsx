@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 
 function summary(props) {
-  const [confirmed, setConfirmed] = useState(false) 
+  
 
   const handleConfirmed = () => {
-    
+
   }
 
   return (

@@ -21,6 +21,7 @@ function Form(props) {
       custom: "custom",
     },
   });
+  const [confirmed, setConfirmed] = useState(false); 
 
   const formTitles = ["info", "plan", "addon", "summary"];
 
