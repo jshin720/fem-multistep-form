@@ -27,21 +27,25 @@ function App() {
       </div>
       <div className="progress-list">
         <span>
+          <h6 className="light dark">1</h6>
           <p>step 1:</p>
           <p>Your Information</p>
         </span>
 
         <span>
+          <h6 className="light dark">2</h6>
           <p>step 2:</p>
           <p>Select Plan</p>
         </span>
 
         <span>
+          <h6 className="light dark">3</h6>
           <p>step 3:</p>
           <p>Add-ons</p>
         </span>
 
         <span>
+          <h6 className="light dark">4</h6>
           <p>step 4:</p>
           <p>Summary</p>
         </span>
