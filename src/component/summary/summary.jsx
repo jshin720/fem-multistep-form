@@ -6,7 +6,7 @@ function summary(props) {
 
   return (
     <div>
-      <h1>Finshing up</h1>
+      <h1>Finishing up</h1>
       <p>Double-check everything looks ok before confirming</p>
       <span>
         <li>
