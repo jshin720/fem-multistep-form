@@ -8,7 +8,6 @@ import "./App.css";
 function App() {
   const [page, setPage] = useState(0);
 
-
   return (
     <>
       <div className="progress-bar">
@@ -26,10 +25,33 @@ function App() {
           }}
         ></div>
       </div>
-      <Form
-        page={page}
-        setPage={setPage}
-      />
+      <div className="progress-list">
+        <ul>
+          <li>
+            <p>step 1:</p>
+            <p>Your Information</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>step 2:</p>
+            <p>Select Plan</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>step 3:</p>
+            <p>Add-ons</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>step 4:</p>
+            <p>Summary</p>
+          </li>
+        </ul>
+      </div>
+      <Form page={page} setPage={setPage} />
     </>
   );
 }
