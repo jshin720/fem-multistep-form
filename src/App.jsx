@@ -26,30 +26,25 @@ function App() {
         ></div>
       </div>
       <div className="progress-list">
-        <ul>
-          <li>
-            <p>step 1:</p>
-            <p>Your Information</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <p>step 2:</p>
-            <p>Select Plan</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <p>step 3:</p>
-            <p>Add-ons</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <p>step 4:</p>
-            <p>Summary</p>
-          </li>
-        </ul>
+        <span>
+          <p>step 1:</p>
+          <p>Your Information</p>
+        </span>
+
+        <span>
+          <p>step 2:</p>
+          <p>Select Plan</p>
+        </span>
+
+        <span>
+          <p>step 3:</p>
+          <p>Add-ons</p>
+        </span>
+
+        <span>
+          <p>step 4:</p>
+          <p>Summary</p>
+        </span>
       </div>
       <Form page={page} setPage={setPage} />
     </>
