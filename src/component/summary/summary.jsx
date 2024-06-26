@@ -11,10 +11,10 @@ function summary(props) {
       <span>
         <li>
           <ul>
-
+        <li>First Name: {formData.firstName}</li>
           </ul>
           <ul>
-
+            
           </ul>
           <ul>
 
