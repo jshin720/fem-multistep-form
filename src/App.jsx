@@ -6,8 +6,11 @@ import Form from "./component/Form.jsx";
 import "./App.css";
 
 function App() {
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(0);  
 
+  const highlightToggle = () => {
+    
+  }
   return (
     <>
       <div className="progress-bar">
