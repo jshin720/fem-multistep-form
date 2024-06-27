@@ -10,6 +10,11 @@ function App() {
   const [lightDark, setLightDark] = useState(true);
   const highlightToggle = () => {
     setLightDark(!lightDark);
+    };
+    return (
+      <div className={lightDark ? "light" : "dark"}>
+        <div className="App"> </div>
+      </div>
   }
   return (
     <>
