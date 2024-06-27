@@ -31,6 +31,8 @@ function Form(props) {
   const { name, email, phone, termToggle, monthly, yearly, addOns }
   = formData;
 
+  
+
   const pageDisplay = () => {
     if (page === 0) {
       return (

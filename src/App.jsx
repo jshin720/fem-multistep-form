@@ -9,7 +9,7 @@ function App() {
   const [page, setPage] = useState(0);  
   const [lightDark, setLightDark] = useState(true);
   const highlightToggle = () => {
-
+    setLightDark(!lightDark);
   }
   return (
     <>
