@@ -13,7 +13,7 @@ function App() {
     };
     return (
       <div className={lightDark ? "light" : "dark"}>
-        <div className="App"> </div>
+      
       </div>
   }
   return (
