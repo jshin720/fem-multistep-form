@@ -11,10 +11,7 @@ function App() {
   const highlightToggle = () => {
     setLightDark(!lightDark);
     };
-    return (
-      <div className={lightDark ? "light" : "dark"}>
-      
-      </div>
+    
   }
   return (
     <>
