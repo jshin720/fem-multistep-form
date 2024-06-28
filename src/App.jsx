@@ -8,6 +8,9 @@ import "./App.css";
 function App() {
   const [page, setPage] = useState(0);  
   const [lightDark, setLightDark] = useState(true);
+  const [theme, setTheme] = useState("light");
+  const [darkTheme, setDarkTheme] = useState("dark");
+  const [lightTheme, setLightTheme] = useState("light");
 
   const highlightToggle = () => {
     setLightDark(!lightDark);
