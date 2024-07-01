@@ -13,11 +13,15 @@ function App() {
   const [lightTheme, setLightTheme] = useState("light");
   const [darkMode, setDarkMode] = useState(false);
 
+
+
+
   const highlightToggle = () => {
     setLightDark(!lightDark);
     };
     
   }
+
   return (
     <>
       <div className="progress-bar">
@@ -31,7 +35,7 @@ function App() {
                 ? "50%"
                 : page === 2
                 ? "75%"
-                : "100%",
+                : "100%"
           }}
         ></div>
       </div>

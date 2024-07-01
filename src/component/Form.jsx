@@ -21,10 +21,12 @@ function Form(props) {
       larger: "extra",
       custom: "custom",
     },
+
   });
   const [confirmed, setConfirmed] = useState(false);
 
   const formTitles = ["info", "plan", "addon", "summary"];
+    
 
   console.log(props);
   const { page, setPage } = props;
