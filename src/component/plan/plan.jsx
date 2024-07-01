@@ -3,7 +3,7 @@ import React from "react";
 function plan(props) {
   const { formData, setFormData, page, setPage } = props;
   const { plan } = formData;
-  
+
 
   const toggleSwitch = () => {
     return (
@@ -17,6 +17,7 @@ function plan(props) {
         <label class="toggle-switch-label" for="toggleSwitch">
           <span class="toggle-switch-inner"></span>
           <span class="toggle-switch-switch"></span>
+          
         </label>
       </div>
     );
