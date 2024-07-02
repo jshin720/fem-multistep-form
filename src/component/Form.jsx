@@ -30,8 +30,7 @@ function Form(props) {
 
   console.log(props);
   const { page, setPage } = props;
-  const { name, email, phone, termToggle, monthly, yearly, addOns }
-  = formData;
+  
 
   
 
