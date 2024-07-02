@@ -2,7 +2,7 @@ import React from 'react';
 
 function addOn(props) {
   const { formData, setFormData, page, setPage } = props;
-  const { addOns } = formData;
+  
   return (
     <div>
       <h1>Pick addon</h1>
