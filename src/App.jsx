@@ -14,7 +14,9 @@ function App() {
   const highlightToggle = () => {
     setLightDark(!lightDark);
     };
-    const [lightDark, setLightDark] = useState(false);
+    const [lightDark, setLightDark] = useState(false); 
+    const [theme, setTheme] = useState("light");
+    
     
   }
 
