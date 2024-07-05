@@ -12,8 +12,7 @@ function App() {
 
 
   const highlightToggle = () => {
-    setLightDark(!lightDark);
-    };
+   
     
     
     
