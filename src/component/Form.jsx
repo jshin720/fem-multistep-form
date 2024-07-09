@@ -32,6 +32,14 @@ function Form(props) {
   const { page, setPage } = props;
   
   const { name, email, phone, termToggle, monthly, yearly, addOns }
+  = formData;
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+      }));
+    };
   
 
   const pageDisplay = () => {
