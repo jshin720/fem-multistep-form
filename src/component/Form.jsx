@@ -32,7 +32,7 @@ function Form(props) {
   const { page, setPage } = props;
   
  
-  = formData;
+
   const handleChange = (e) => {
    
   };
