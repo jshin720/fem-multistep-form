@@ -37,7 +37,7 @@ function addOn(props) {
       <div>
         <p>$1/mo</p>
       </div>
-      <button
+      {/* <button
         onClick={() => {
           setPage((currPage) => currPage - 1);
         }}
@@ -50,7 +50,7 @@ function addOn(props) {
         }}
       >
         next step
-      </button>
+      </button> */}
     </div>
   );
 }
