@@ -2,6 +2,8 @@ import React from 'react';
 
 function addOn(props) {
   const { formData, setFormData, page, setPage } = props;
+  const { name, price, description, image } = formData;
+  const { name: nameError, price: priceError, description: descriptionError } = props
   
   return (
     <div>
@@ -51,6 +53,8 @@ function addOn(props) {
       >
         next step
       </button>
+
+
     </div>
   );
 }
