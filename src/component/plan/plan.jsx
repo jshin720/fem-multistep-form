@@ -3,6 +3,7 @@ import React from "react";
 function plan(props) {
   const { formData, setFormData, page, setPage } = props;
   const { plan } = formData;
+  
 
 
   const toggleSwitch = () => {
