@@ -30,7 +30,15 @@ function Form(props) {
     
   };
 
-
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setConfirmed(true);
+    };
+    const handleBack = () => {
+      setPage((page) => page - 1);
+      };
+      const handleNext = () => {
+        
   
 
   const pageDisplay = () => {
