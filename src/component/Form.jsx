@@ -11,16 +11,7 @@ function Form(props) {
     name: "",
     email: "",
     phone: "",
-    name: "",
-    // plan: {},
-    termToggle: false,
-    monthly: true,
-    yearly: false,
-    addOns: {
-      online: "Access",
-      larger: "extra",
-      custom: "custom",
-    },
+    name: ""
 
   });
   const [confirmed, setConfirmed] = useState(false);
