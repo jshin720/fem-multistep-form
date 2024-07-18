@@ -11,8 +11,10 @@ function Form(props) {
     name: "",
     email: "",
     phone: "",
-    name: ""
-
+    name: "",
+    plan: "",
+    addons: [],
+    });
   });
   const [confirmed, setConfirmed] = useState(false);
 
