@@ -33,13 +33,7 @@ function Form(props) {
 
  
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => {
-      return {
-        ...prev,
-        [name]: value,
-        };
-    }
+    
   };
 
 
