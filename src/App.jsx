@@ -7,7 +7,8 @@ import "./App.css";
 
 function App() {
   const [page, setPage] = useState(0);  
-
+  const [data, setData] = useState({
+    name: "",
 
 
 
