@@ -14,9 +14,13 @@ function App() {
   const highlightToggle = () => {
     setPage((prev) => prev + 1);
     };
+    return (
+      <div className="App">
+        <Form page={page} highlightToggle={highlightToggle} />
+        </div>
    
     
-    
+    )
     
   }
 
