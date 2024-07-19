@@ -12,6 +12,8 @@ function App() {
 
 
   const highlightToggle = () => {
+    setPage((prev) => prev + 1);
+    };
    
     
     
