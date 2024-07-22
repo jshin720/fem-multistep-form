@@ -23,7 +23,7 @@ function Form(props) {
 
   console.log(props);
   const { page, setPage } = props;
-  const { formData, setFormData } = props;
+
 
  
   const handleChange = (e) => {
