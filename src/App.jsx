@@ -7,21 +7,10 @@ import "./App.css";
 
 function App() {
   const [page, setPage] = useState(0);  
-  const [data, setData] = useState({
-    name: "",
-
+ 
 
 
   const highlightToggle = () => {
-    setPage((prev) => prev + 1);
-    };
-    return (
-      <div className="App">
-        <Form page={page} highlightToggle={highlightToggle} />
-        </div>
-   
-    
-    )
     
   }
 
