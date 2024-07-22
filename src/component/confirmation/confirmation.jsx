@@ -21,20 +21,7 @@ function confirmation(props) {
         <input type="phone" name="phone" value={handleChange()} />
         <label>Password:</label>
       </form>
-      {/* <button
-        onClick={() => {
-          setPage((currPage) => currPage - 1);
-        }}
-      >
-        go back
-      </button>
-      <button
-        onClick={() => {
-          setPage((currPage) => currPage + 1);
-        }}
-      >
-        next step
-      </button> */}
+      
     </div>
   );
 }
