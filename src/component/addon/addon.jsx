@@ -2,7 +2,7 @@ import React from 'react';
 
 function addOn(props) {
   const { formData, setFormData, page, setPage } = props;
-  const { name, price, description, image } = formData;
+
 
   
   return (
