@@ -5,7 +5,10 @@ function confirmation(props) {
   const { formData, setFormData, page, setPage } = props;
 
   const handleChange = () => {
-      
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value
+      });
   }
 
 
