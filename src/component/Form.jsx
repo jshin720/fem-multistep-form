@@ -15,7 +15,7 @@ function Form(props) {
     plan: "",
     addons: [],
     });
-  });
+  
   const [confirmed, setConfirmed] = useState(false);
 
   const formTitles = ["info", "plan", "addon", "summary"];
