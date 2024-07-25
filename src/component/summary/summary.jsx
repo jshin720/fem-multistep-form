@@ -2,7 +2,12 @@ import React, {useState} from 'react';
 
 function summary(props) {
   
-  const { confirmed, setConfirmed, formData} = props
+  const { confirmed, setConfirmed, formData} = props;
+  const [summary, setSummary] = useState({
+    name: formData.name,
+    email: formData.email,
+    phone: formData.phone,
+    address: formData.address
 
   return (
     <div>
