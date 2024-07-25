@@ -7,7 +7,11 @@ function summary(props) {
     name: formData.name,
     email: formData.email,
     phone: formData.phone,
-    address: formData.address
+    address: formData.address,
+    city: formData.city,
+    state: formData.state,
+    zip: formData.zip,
+  })
 
   return (
     <div>
