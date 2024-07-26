@@ -38,6 +38,7 @@ function summary(props) {
       </span>
 
       <button onClick={setConfirmed(true)}></button>
+      
     </div>
   );
 }

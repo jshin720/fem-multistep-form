@@ -7,8 +7,10 @@ function confirmation(props) {
   const handleChange = () => {
     setFormData({
       ...formData,
+      confirmation: !formData.confirmation,
       [event.target.name]: event.target.value
       })
+
     
   }
 
