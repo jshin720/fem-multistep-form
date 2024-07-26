@@ -11,6 +11,8 @@ function summary(props) {
     city: formData.city,
     state: formData.state,
     zip: formData.zip,
+    country: formData.country,
+    confirmed: confirmed,
   })
 
   return (
