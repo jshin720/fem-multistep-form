@@ -23,6 +23,7 @@ function summary(props) {
         <li>
           <ul>
         <li>First Name: {formData.firstName}</li>
+        <li>Last Name: {formData.lastName}</li>
           </ul>
           <ul>
             
