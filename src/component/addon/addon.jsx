@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function addOn(props) {
   const { formData, setFormData, page, setPage } = props;
+  const [show, setShow] = useState(false);
 
   
   return (
