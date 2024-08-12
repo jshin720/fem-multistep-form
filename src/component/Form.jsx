@@ -29,10 +29,12 @@ function Form(props) {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
     
+    
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     setConfirmed(true);
     };
     const handleBack = () => {
@@ -42,6 +44,7 @@ function Form(props) {
         setPage((page) => page + 1);
       };
     }
+
 
   const pageDisplay = () => {
     if (page === 0) {
