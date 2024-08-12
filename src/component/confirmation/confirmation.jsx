@@ -3,6 +3,7 @@ import React from 'react';
 function confirmation(props) {
   
   const { formData, setFormData, page, setPage } = props;
+  const { name, email, phone, address } = formData;
 
   const handleChange = () => {
     setFormData({
