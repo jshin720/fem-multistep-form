@@ -2,6 +2,8 @@ import React from "react";
 
 function plan(props) {
   const { formData, setFormData, page, setPage } = props;
+  const [show, setShow] = React.useState(false);
+  const [show2, setShow2] = React.useState(false);
  
 
 
