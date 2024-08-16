@@ -23,6 +23,7 @@ function Form(props) {
 
   console.log(props);
   const { page, setPage } = props;
+  const { name, email, phone, plan, addons } = formData;
 
 
  
