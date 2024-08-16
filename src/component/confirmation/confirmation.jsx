@@ -12,6 +12,7 @@ function confirmation(props) {
       [event.target.name]: event.target.value
       })
 
+      
     
   }
 
